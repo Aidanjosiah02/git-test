@@ -1,10 +1,14 @@
-import java.util.Random;
+static final int MAX = 5;
 
 public class ByeWorld {
     public static void main(String[] args) {
-        System.out.println("Bye, World!");
+        System.out.println("Byeeeeeeeee World!");
+        bye();
+    }
 
-        Random generator = new Random();
-        System.out.println(generator.nextInt(0,256));
+    private static void bye() {
+        for (int i = 0; i < MAX; i++) {
+            System.out.println("Goodbye World!");
+        }
     }
 }
