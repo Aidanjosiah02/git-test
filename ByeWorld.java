@@ -1,6 +1,6 @@
-static final int MAX = 5;
-
 public class ByeWorld {
+    static final int MAX = 5;
+
     public static void main(String[] args) {
         System.out.println("Byeeeeeeeee World!");
         bye();

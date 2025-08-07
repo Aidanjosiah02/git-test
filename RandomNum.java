@@ -5,6 +5,6 @@ public class RandomNum {
         System.out.println("Bye, World!");
 
         Random generator = new Random();
-        System.out.println(generator.nextInt(0,256));
+        System.out.println(generator.nextInt(256));
     }
 }
