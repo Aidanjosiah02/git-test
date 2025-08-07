@@ -8,7 +8,7 @@ public class ByeWorld {
 
     private static void bye() {
         for (int i = 0; i < MAX; i++) {
-            System.out.println("Goodbye World!");
+            System.out.println("byebye!");
         }
     }
 }
